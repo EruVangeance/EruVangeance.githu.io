@@ -1,0 +1,39 @@
+body {
+  background: goldenrod;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: fantasy;
+  color: gray;
+  text-decoration: underline
+}
+h6 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: antiquewhite;
+  text-decoration: overline;
+}
+h5 {
+  font-weight: normal;
+  font-family: cursive;
+  color: antiquewhite;
+  font-size: 15px;
+  text-decoration: underline;
+}
+h2 {
+  font-weight: bold;
+  font-family: fantasy;
+  color: gold;
+  font-size: 27px;
+  text-decoration: underline;
+}
+img {
+  border-radius: 15px;
+  width: 300px;
+  height: 160px;
+}
