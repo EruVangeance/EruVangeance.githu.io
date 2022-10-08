@@ -3,20 +3,27 @@ body {
 }
 p {
   color: black;
+  flex-basis: 500px;
+  padding-left: 10px;
+  align-items: center;
 }
 h1 {
+  display: inline; 
+  padding: 20px;
+  position: relative;
   font-weight: bold;
   font-size: 25px;
   font-family: fantasy;
-  color: gray;
-  text-decoration: underline
+  text-decoration: underline;
+  padding-left: 20%;
 }
 h6 {
-  font-size: 25px;
-  font-weight: bold;
+  display: outline;
+  font-size: 10px;
   font-family: fantasy;
   color: antiquewhite;
   text-decoration: overline;
+  padding-left: 17%;
 }
 h5 {
   font-weight: normal;
@@ -31,9 +38,36 @@ h2 {
   color: gold;
   font-size: 27px;
   text-decoration: underline;
+  text-align: center;
 }
 img {
+  display: flex;
   border-radius: 15px;
   width: 300px;
   height: 160px;
+  align-items: center;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #3abc2c;
+  font-size: 30px;
+}
+
+p7 {
+  font-family: fantasy;
+  color: gold;
+  font-size: 14px;
+  float: right;}
+footer {
+  display: block;
+  text-align: center;
+  background: #3abc2c;
+}
+block {
+  border: 2px solid green;
+  display: flex;
+  justify-content:center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
